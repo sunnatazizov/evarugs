@@ -1,0 +1,49 @@
+@media (max-width: 1115px){
+    .item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .numbers{
+        display: flex;
+        display: none;
+    }
+    }
+    
+    @media (max-width: 990px){
+    .numbers{
+        display: none;
+    }
+    }
+    
+    @media (max-width: 768px){
+    .people{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .information{
+    
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .info_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    }
+    
+    @media (max-width: 500px){
+    
+    }
+    
+    @media (max-width: 350px){
+    
+    }
+    
+    
+    
